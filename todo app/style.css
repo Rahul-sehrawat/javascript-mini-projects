@@ -13,7 +13,7 @@ body{
 .container{
     width: 500px;
     height: 90vh;
-    background: #7e8233a8;
+    background: #503382a8;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     border-radius: 10px;
     text-align: center;
@@ -26,7 +26,7 @@ body{
     padding: 3px;
     margin-top: 20px;
     border-radius: 10px;
-    background: #937464a1;
+    background: #e2e0dfa1;
 }
 
 #contentcontainer{
@@ -36,20 +36,20 @@ body{
 
 .content{
     display: flex;
-    justify-content: space-around;
-    align-items: center;    
+    align-items: center;
 }
 
 .deleteButton{
-    background: rgb(151, 102, 102);
+    background: rgb(57, 195, 39);
     width: 30px;
     height: 30px;
     border-radius: 20px; 
+  
 }
 
 .h{
     font: 20px;
-    border: 4px rebeccapurple;
+    flex: 0 0 80%;
 }
 
 

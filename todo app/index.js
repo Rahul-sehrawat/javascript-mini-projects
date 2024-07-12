@@ -38,7 +38,7 @@ function showAllTasks(){
 form.addEventListener("submit",(e)=>{
     e.preventDefault()
     taskList.push(task.value)
-    console.log(taskList)
+    task.value = ''
     localStorage.setItem("tasks",JSON.stringify(taskList))
     showAllTasks()
 })
