@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.container{
+    width: 500px;
+    height: 90vh;
+    background: #7e8233a8;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+#addBtn, #task{
+    font-size: 30px;
+    padding: 3px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: #937464a1;
+}
+
+#contentcontainer{
+    margin-top: 20px;
+    width: 90%;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.deleteButton{
+    background: rgb(151, 102, 102);
+    width: 30px;
+    height: 30px;
+    border-radius: 20px; 
+}
+
+.h{
+    font: 20px;
+    border: 4px rebeccapurple;
+}
+
+
+
+
+
+
+
+
+
