@@ -1,19 +1,22 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
-    background: white;
+    background: linear-gradient(180deg, #614385, #516395);
     display: flex;
     justify-content: center;
     padding-top: 20px;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .container{
     width: 500px;
     height: 90vh;
-    background: #503382a8;
+    background: linear-gradient(180deg, #93A5CF, #E4EfE9);
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     border-radius: 10px;
     text-align: center;
@@ -23,7 +26,8 @@ body{
 
 #addBtn, #task{
     font-size: 30px;
-    padding: 3px;
+    font-weight: bold;
+    padding: 5px;
     margin-top: 20px;
     border-radius: 10px;
     background: #e2e0dfa1;
@@ -40,7 +44,7 @@ body{
 }
 
 .deleteButton{
-    background: rgb(57, 195, 39);
+    background: rgb(145, 16, 214);
     width: 30px;
     height: 30px;
     border-radius: 20px; 
@@ -48,7 +52,7 @@ body{
 }
 
 .h{
-    font: 20px;
+    font-size: 3rem;
     flex: 0 0 80%;
 }
 
